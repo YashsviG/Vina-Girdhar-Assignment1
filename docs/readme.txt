@@ -6,5 +6,5 @@ Completed Everything
 Major challenges: None
 Special instructions: N/A
 
-URL of Azure web application: 
+URL of Azure web application: https://vinagirdharassignment1.azurewebsites.net 
 
