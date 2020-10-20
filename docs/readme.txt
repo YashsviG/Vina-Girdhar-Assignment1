@@ -5,5 +5,5 @@ Jilliane Vina: A01039469, email_address: vina.jilliane23@gmail.com
 Major challenges: None
 Special instructions: N/A
 
-URL of Azure webapplication: 
+URL of Azure web application: 
 
