@@ -12,5 +12,6 @@ namespace Assignment1.Data
             : base(options)
         {
         }
+        
     }
 }
