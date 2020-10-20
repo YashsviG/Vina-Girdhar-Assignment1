@@ -42,7 +42,6 @@ namespace Assignment1.Controllers
         [Authorize]
         public IActionResult bookInfo(int id)
         {
-        
             var book = booksArray.GetProperty("items")[id].GetProperty("volumeInfo");
             int key;
          
@@ -57,8 +56,10 @@ namespace Assignment1.Controllers
                 key = 1;
             }
 
+
             ViewBag.bookTitle = book.GetProperty("title");
-            ViewBag.authers = book.GetProperty("authors");
+            ViewBag.authors = book.GetProperty("authors");
+            ViewBag.length = book.GetProperty("authors").GetArrayLength();
             ViewBag.publisher = book.GetProperty("publisher");
             ViewBag.publishDate = book.GetProperty("publishedDate");
             ViewBag.description = book.GetProperty("description");
@@ -67,4 +68,5 @@ namespace Assignment1.Controllers
             return View();
         }
     }
+
 }
